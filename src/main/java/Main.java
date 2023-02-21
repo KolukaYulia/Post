@@ -6,11 +6,11 @@ public class Main {
         post.surname = "Петров";
         post.passport = "1010 № 222333";
         post.phone = "+7 (921) 555-44-33";
-        post.subscription = "true";
+        post.subscription = true;
         post.birthday = new FormDate();
-        post.birthday.day = "01";
-        post.birthday.month = "10";
-        post.birthday.year = "1990";
+        post.birthday.day = 01;
+        post.birthday.month = 10;
+        post.birthday.year = 1990;
 
         System.out.println("Имя : " + post.name);
         System.out.println("Отчество : " + post.patronymic);
